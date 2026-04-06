@@ -73,6 +73,7 @@ terraform validate
 terraform plan
 
 # Apply configuration
+```bash
 terraform apply
 
 Type yes when prompted.
@@ -129,9 +130,10 @@ Add ALB (Application Load Balancer)
 Use HTTPS with ACM
 Store secrets in AWS Secrets Manager
 Add IAM roles instead of static credentials
+```
 👨‍💻 Author
 
-Your DevOps Project 🚀
+shivani 🚀
 
 
 ---
