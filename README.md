@@ -43,10 +43,11 @@ Make sure you have:
   aws configure
 
 Terraform installed:
-
+```bash
 terraform -v
+```
 🔐 Important Configuration
-
+```bash
 Update the following before running:
 
 1. Backend (S3)
@@ -56,7 +57,8 @@ Edit backend.tf:
 bucket = "your-terraform-state-bucket-file-sssss"
 
 ⚠️ Bucket must exist before running Terraform.
-
+```
+```bash
 2. Key Pair
 
 Ensure this key exists in AWS:
