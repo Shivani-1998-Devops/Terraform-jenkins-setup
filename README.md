@@ -19,7 +19,7 @@
 
 ## 📂 Project Structure
 
-
+```bash
 .
 ├── main.tf
 ├── variables.tf
@@ -28,7 +28,7 @@
 ├── backend.tf
 ├── jenkins-server-script.sh
 └── README.md
-
+```
 
 ---
 
@@ -62,6 +62,7 @@ bucket = "your-terraform-state-bucket-file-sssss"
 Ensure this key exists in AWS:
 
 key_name = "linux-key-v"
+```
 🚀 Deployment Steps
 # Initialize Terraform
 terraform init
